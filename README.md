@@ -67,7 +67,7 @@ to change inbound traffic in EC2 instance
 ![image](https://github.com/user-attachments/assets/33d6f52f-114b-4752-b004-7b40b74ecb18)
 
 ### Login to Jenkins using the below URL:
-http://<ec2-instance-public-ip-address>:8080 
+http://ec2-instance-public-ip-address:8080 
 
 ![image](https://github.com/user-attachments/assets/ad6cfd82-ebef-4b03-b670-74558edaad8e)
 
@@ -78,10 +78,15 @@ After you login to Jenkins,
 ## Click on Install suggested plugins
 ![image](https://github.com/user-attachments/assets/3f4e6362-84f9-4bb8-a782-dc915d6fdfed)
 
+Wait for the Jenkins to Install suggested plugins
+![image](https://github.com/user-attachments/assets/6e29d7d2-195f-4b51-9295-33a0d84125a7)
 
+Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
 
+![image](https://github.com/user-attachments/assets/215a5b86-b4b2-4bea-8c18-9b33ecec1617)
 
-
+Jenkins Installation is Successful. We can now starting using the Jenkins
+![image](https://github.com/user-attachments/assets/ff6bcc00-4500-465a-9c33-2609c3a6bdc2)
 
 
   
