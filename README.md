@@ -12,7 +12,9 @@
 ### Run the below commands to install Java and Jenkins
 
 for switching to root user
+```
 sudo su -
+```
 
 
 
