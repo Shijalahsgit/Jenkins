@@ -17,7 +17,7 @@ sudo su -
 Pre-Requisites:
  - Java (JDK)
 ## Installation of Java
-Jenkins requires Java to run and there are multiple Java implementations which you can use. OpenJDK is the most popular one.
+Jenkins requires Java to run and there are multiple Java implementations which we can use. OpenJDK is the most popular one.
 
 ```
 sudo apt update
@@ -28,10 +28,12 @@ OpenJDK Runtime Environment (build 21.0.3+11-Debian-2)
 OpenJDK 64-Bit Server VM (build 21.0.3+11-Debian-2, mixed mode, sharing)
 ```
 Verify Java is Installed
+
 ```
 java -version
 ```
 Now, we can proceed with installing Jenkins
+
 ## Installing Jenkins
 ```
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
@@ -58,7 +60,7 @@ to check the port number
 ```
 ps -ef | grep jenkins
 ```
-to change inbound traffic in EC2 instance
+To change inbound traffic in EC2 instance
 
 - EC2 > Instances > Click on <Instance-ID>
 - In the bottom tabs -> Click on Security
